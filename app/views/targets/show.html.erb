@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @target.name %>
+</p>
+
+<p>
+  <strong>Site:</strong>
+  <%= @target.site %>
+</p>
+
+<p>
+  <strong>Icon:</strong>
+  <%= @target.icon %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @target.url %>
+</p>
+
+<%= link_to 'Edit', edit_target_path(@target) %> |
+<%= link_to 'Back', targets_path %>

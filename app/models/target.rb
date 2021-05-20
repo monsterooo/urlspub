@@ -1,5 +1,7 @@
 class Target < ApplicationRecord
-  def query
-    Feed::Juejin.new.run
+  has_many :articles
+  
+  def run
+    Feed::Juejin.new.run(url)
   end
 end

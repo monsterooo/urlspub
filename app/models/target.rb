@@ -2,6 +2,7 @@ class Target < ApplicationRecord
   has_many :articles
   
   def run
-    Feed::Juejin.new.run(url)
+    feedObj = Object.const_get("Feed::#{site.capitalize}");
+    feedObj.new.run(url)
   end
 end

@@ -1,5 +1,5 @@
 module Feed
-  class Juejin < Feed::Fetch
+  class Segmentfault < Feed::Fetch
     def run(url)
       target = Target.where(url: url).first
       feed, xml = query(url)

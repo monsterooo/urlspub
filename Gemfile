@@ -60,3 +60,5 @@ gem "httparty", "~> 0.18.1"
 gem "feedjira", "~> 3.1"
 
 gem "sidekiq", "~> 6.2"
+
+gem "bootstrap", "~> 5.0"

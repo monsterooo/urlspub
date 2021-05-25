@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @category = Target.category
+    @articles = Target.category
   end
 end

@@ -1,4 +1,18 @@
 .urls {
+  display: flex;
+  flex-wrap: wrap;
+
   &-item {
+    
+  }
+  @include media-breakpoint-up(sm) {
+    &-item {
+      width: 100%;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    &-item {
+      width: 33.3333%;
+    }
   }
 }

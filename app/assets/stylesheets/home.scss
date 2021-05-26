@@ -3,7 +3,21 @@
   flex-wrap: wrap;
 
   &-item {
-    
+    position: relative;
+    height: 400px;
+    h3 {
+      height: 50px;
+    }
+    ul {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      overflow-y: auto;
+      list-style-type: none;
+    }
   }
   @include media-breakpoint-up(sm) {
     &-item {

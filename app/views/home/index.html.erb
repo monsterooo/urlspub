@@ -1,7 +1,7 @@
 <div class="container">
   <div class="urls">
     <div class="urls-item">
-      <h3>掘金</h3>
+      <h3>juejin</h3>
       <ul>
         <% @articles['juejin'].each do |article| %>
           <li><a href=""><%= article.title %></a></li>
@@ -9,7 +9,12 @@
       </ul>
     </div>
     <div class="urls-item">
-      1
+      <h3>sf</h3>
+      <ul>
+        <% @articles['segmentfault'].each do |article| %>
+          <li><a href=""><%= article.title %></a></li>
+        <% end %>
+      </ul>
     </div>
     <div class="urls-item">
       1

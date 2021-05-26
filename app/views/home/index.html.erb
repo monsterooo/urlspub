@@ -1,26 +1,7 @@
 <div class="container">
   <div class="urls">
-    <div class="urls-item">
-      <h3>juejin</h3>
-      <ul>
-        <% @articles['juejin'].each do |article| %>
-          <li><a href=""><%= article.title %></a></li>
-        <% end %>
-      </ul>
-    </div>
-    <div class="urls-item">
-      <h3>sf</h3>
-      <ul>
-        <% @articles['segmentfault'].each do |article| %>
-          <li><a href=""><%= article.title %></a></li>
-        <% end %>
-      </ul>
-    </div>
-    <div class="urls-item">
-      1
-    </div>
-    <div class="urls-item">
-      2
-    </div>
+    <% @articles.map do |_, article| %>
+      <%= render partial: "list", locals: { title: article.first.target.name, icon: article.first.target.icon, articles: article } %>
+    <% end %>
   </div>
 </div>

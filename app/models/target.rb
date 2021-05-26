@@ -7,7 +7,6 @@ class Target < ApplicationRecord
     targets.each do |target|
       category[target.site] = target.articles.today
     end
-    p 'category:', category
     category
   end
   def run

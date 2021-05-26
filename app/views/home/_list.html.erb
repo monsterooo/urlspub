@@ -1,0 +1,14 @@
+<div class="urls-item">
+  <h3>
+    <a href="" class="urls-icon">
+      <img src="<%= icon %>" alt="<%= title %>" />
+    </a>
+    <span><%= title %></span>
+    <div class="urls-view"></div>
+  </h3>
+  <ul>
+    <% articles.each do |article| %>
+      <li><a href="<%= article.url %>" target="_blank"><%= article.title %></a></li>
+    <% end %>
+  </ul>
+</div>

@@ -2,7 +2,7 @@
   <div class="urls">
     <% @articles.map do |_, article| %>
       <%if not article.empty? %>
-        <%= render partial: "list", locals: { title: article.first.target.name, icon: article.first.target.icon, articles: article } %>
+        <%= render partial: "list", locals: { target: article.first.target, articles: article } %>
       <% end %>
     <% end %>
   </div>

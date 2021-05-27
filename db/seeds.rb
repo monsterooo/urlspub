@@ -8,14 +8,18 @@
 Target.create([
   {
     name: '掘金',
-    icon: 'https://b-gold-cdn.xitu.io/favicons/v2/apple-touch-icon.png',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/juejin.png',
     url: 'https://juejin.cn/rss',
-    site: 'juejin'
+    site: 'juejin',
+    background: '#61a4ff',
+    color: 'black',
   },
   {
     name: 'SegmentFault',
-    icon: 'https://cdn.segmentfault.com/r-e7d8949f/touch-icon.png',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/sf.png',
     url: 'https://segmentfault.com/articles/feeds',
-    site: 'segmentfault'
+    site: 'segmentfault',
+    background: '#009a61',
+    color: 'white',
   }
 ])

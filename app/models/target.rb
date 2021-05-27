@@ -5,7 +5,7 @@ class Target < ApplicationRecord
     category = {}
     targets = Target.all
     targets.each do |target|
-      category[target.site] = target.articles.today
+      category[target.site] = target.articles.lately
     end
     category
   end

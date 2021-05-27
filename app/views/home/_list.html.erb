@@ -1,11 +1,13 @@
 <div class="urls-item">
-  <h3>
+  <div class="urls-head position-relative d-flex align-items-center">
     <a href="" class="urls-icon">
       <img src="<%= icon %>" alt="<%= title %>" />
     </a>
-    <span><%= title %></span>
+    <h3 class="urls-title flex-grow-1 flex-shrink-1 zindex-fixed">
+      <%= title %>
+    </h3>
     <div class="urls-view"></div>
-  </h3>
+  </div>
   <ul>
     <% articles.each do |article| %>
       <li><a href="<%= article.url %>" target="_blank"><%= article.title %></a></li>

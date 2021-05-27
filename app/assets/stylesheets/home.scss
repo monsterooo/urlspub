@@ -1,32 +1,20 @@
 .urls {
   display: flex;
   flex-wrap: wrap;
+  padding: 0 70px;
 
   &-item {
     position: relative;
     height: 400px;
     h3 {
       height: 50px;
+      line-height: 50px;
       position: relative;
+      margin-bottom: 0;
       span {
-        text-indent: 20px;
-        line-height: 50px;
         position: relative;
         z-index: 10;
-      }
-      a {
-        display: inline-block;
-        height: 100%;
-        width: 50px;
-      }
-      img {
-        position: relative;
-        height: 60%;
-        width: 60%;
-        display: block;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        text-indent: 10;
       }
     }
     ul {
@@ -47,6 +35,24 @@
     bottom: 0;
     left: 0;
     width: 0;
+    z-index: 5;
+  }
+  &-title {
+    position: relative;
+    z-index: 10;
+  }
+  &-icon {
+    width: 50px;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+
+    img {
+      position: relative;
+      height: 60%;
+      width: 60%;
+      display: block;
+    }
   }
   @include media-breakpoint-up(sm) {
     &-item {

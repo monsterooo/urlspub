@@ -1,7 +1,22 @@
+body {
+  background: #f7f7f7;
+  touch-action: manipulation;
+}
+.logo {
+  text-decoration: none;
+  color: #e05745;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 24px;
+  &:hover {
+    color: #e05745;
+  }
+}
 .urls {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 70px;
+  margin-left: -10px;
+  margin-right: -10px;
 
   &-item {
     width: 100%;
@@ -81,12 +96,17 @@
       margin: auto;
     }
   }
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 576px) {
     &-item {
       width: 100%;
     }
   }
-  @include media-breakpoint-up(lg) {
+  @media (min-width: 768px) {
+    &-item {
+      width: 50%;
+    }
+  }
+  @media (min-width: 992px) {
     &-item {
       width: 33.3333%;
     }

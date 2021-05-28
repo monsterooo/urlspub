@@ -8,4 +8,4 @@ class GetTargetJob < ApplicationJob
   end
 end
 
-# Sidekiq::Cron::Job.create(name: 'get target worker - every 1min', cron: '*/1 * * * *', class: 'GetTargetJob')
+# Sidekiq::Cron::Job.create(name: 'get target worker - every 1min', cron: '*/30 * * * *', class: 'GetTargetJob')

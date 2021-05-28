@@ -2,8 +2,8 @@ class ExampleJob < ApplicationJob
   queue_as :default
 
   def perform(*args)
-    Target.all.each do |target|
-      target.run
-    end
+    p '执行background job'
   end
 end
+
+# Sidekiq::Cron::Job.create(name: 'Example worker - every 1min', cron: '*/1 * * * *', class: 'ExampleJob', active_job: true)

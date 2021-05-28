@@ -62,3 +62,5 @@ gem "feedjira", "~> 3.1"
 gem "sidekiq", "~> 6.2"
 
 gem "bootstrap", "~> 5.0"
+
+gem "sidekiq-cron", "~> 1.2"

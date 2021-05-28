@@ -8,7 +8,7 @@
 Target.create([
   {
     name: '掘金',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/juejin.png',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/juejin.svg',
     url: 'https://juejin.cn/rss',
     site: 'juejin',
     background: '#61a4ff',
@@ -21,5 +21,13 @@ Target.create([
     site: 'segmentfault',
     background: '#009a61',
     color: 'white',
+  },
+  {
+    name: 'CSS-Tricks',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/css-tricks.svg',
+    url: 'https://css-tricks.com/feed/',
+    site: 'csstricks',
+    background: 'linear-gradient(to bottom, #fffdfd, #faebdc)',
+    color: 'black',
   }
 ])

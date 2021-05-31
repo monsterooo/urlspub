@@ -1,5 +1,5 @@
 module Feed
-  class Segmentfault < Feed::Fetch
+  class Cnblogs < Feed::Fetch
     def run(url)
       super
     end

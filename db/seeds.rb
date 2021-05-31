@@ -5,31 +5,43 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#Target.create([
+#   {
+#     name: '掘金',
+#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/juejin.svg',
+#     url: 'https://juejin.cn/rss',
+#     home: 'https://juejin.cn',
+#     site: 'juejin',
+#     background: '#61a4ff',
+#     color: 'black',
+#   },
+#   {
+#     name: 'SegmentFault',
+#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/sf.png',
+#     url: 'https://segmentfault.com/articles/feeds',
+#     home: 'https://segmentfault.com',
+#     site: 'segmentfault',
+#     background: '#009a61',
+#     color: 'white',
+#   },
+#   {
+#     name: 'CSS-Tricks',
+#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/css-tricks.svg',
+#     url: 'https://css-tricks.com/feed/',
+#     site: 'csstricks',
+#     background: 'linear-gradient(to bottom, #fffdfd, #faebdc)',
+#     color: 'black',
+#   }
+# ])
+
 Target.create([
   {
-    name: '掘金',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/juejin.svg',
-    url: 'https://juejin.cn/rss',
-    home: 'https://juejin.cn',
-    site: 'juejin',
-    background: '#61a4ff',
-    color: 'black',
-  },
-  {
-    name: 'SegmentFault',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/sf.png',
-    url: 'https://segmentfault.com/articles/feeds',
-    home: 'https://segmentfault.com',
-    site: 'segmentfault',
-    background: '#009a61',
+    name: 'CNBlogs',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/cnblogs.svg',
+    url: 'http://feed.cnblogs.com/blog/picked/rss',
+    home: 'https://www.cnblogs.com/',
+    site: 'cnblogs',
+    background: '#d14c25',
     color: 'white',
   },
-  {
-    name: 'CSS-Tricks',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/css-tricks.svg',
-    url: 'https://css-tricks.com/feed/',
-    site: 'csstricks',
-    background: 'linear-gradient(to bottom, #fffdfd, #faebdc)',
-    color: 'black',
-  }
 ])

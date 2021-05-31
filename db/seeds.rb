@@ -34,14 +34,26 @@
 #   }
 # ])
 
+# Target.create([
+#   {
+#     name: 'CNBlogs',
+#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/cnblogs.svg',
+#     url: 'http://feed.cnblogs.com/blog/picked/rss',
+#     home: 'https://www.cnblogs.com/',
+#     site: 'cnblogs',
+#     background: '#d14c25',
+#     color: 'white',
+#   },
+# ])
+
 Target.create([
   {
-    name: 'CNBlogs',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/cnblogs.svg',
-    url: 'http://feed.cnblogs.com/blog/picked/rss',
-    home: 'https://www.cnblogs.com/',
-    site: 'cnblogs',
-    background: '#d14c25',
+    name: 'InfoQ',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/infoq.png',
+    url: 'https://xie.infoq.cn/feeds',
+    home: 'https://www.infoq.cn/',
+    site: 'infoq',
+    background: '#3db24b',
     color: 'white',
   },
 ])

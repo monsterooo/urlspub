@@ -1,11 +1,17 @@
 <div class="urls-item">
   <div class="urls-inner">
     <div class="urls-head position-relative d-flex align-items-center" style="background-color:<%= target.background %>">
-      <a href="<%= target.home %>" class="urls-icon" target="_blank">
+      <a href="<%= target.home %>" class="urls-icon align-self-center" target="_blank">
         <img class="urls-icon-<%= target.site %>" src="<%= target.icon %>" alt="<%= target.name %>" />
       </a>
       <h3 class="urls-title flex-grow-1 flex-shrink-1 zindex-fixed" style="color:<%= target.color%>">
         <%= target.name %>
+        <div class="urls-more" data-site="<%= target.site %>">
+          <span class="urls-more--lately <%= 'selected' if interval == 'lately'%>" data-view="lately">默认</span>
+          <span class="urls-more--today <%= 'selected' if interval == 'today'%>" data-view="today">今天</span>
+          <span class="urls-more--week <%= 'selected' if interval == 'week'%>" data-view="week">本周</span>
+          <span class="urls-more--month <%= 'selected' if interval == 'month'%>" data-view="month">本月</span>
+        </div>
       </h3>
       <div class="urls-view"></div>
     </div>

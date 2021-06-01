@@ -3,6 +3,7 @@ require 'sidekiq/cron/web'
 
 Rails.application.routes.draw do
   get 'home/index'
+  post 'home/fetch_more'
   root 'home#index'
   mount Sidekiq::Web => '/sidekiq'
   # resources :articles

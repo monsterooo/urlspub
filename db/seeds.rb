@@ -46,14 +46,26 @@
 #   },
 # ])
 
+# Target.create([
+#   {
+#     name: 'InfoQ',
+#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/infoq.png',
+#     url: 'https://xie.infoq.cn/feeds',
+#     home: 'https://www.infoq.cn/',
+#     site: 'infoq',
+#     background: '#3db24b',
+#     color: 'white',
+#   },
+# ])
+
 Target.create([
   {
-    name: 'InfoQ',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/infoq.png',
-    url: 'https://xie.infoq.cn/feeds',
-    home: 'https://www.infoq.cn/',
-    site: 'infoq',
-    background: '#3db24b',
+    name: 'Github Trending',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/github.svg',
+    url: 'https://rsshub.app/github/trending/daily/',
+    home: 'https://www.github.com/',
+    site: 'github',
+    background: '#24292e',
     color: 'white',
   },
 ])

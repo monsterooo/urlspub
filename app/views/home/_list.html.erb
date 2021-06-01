@@ -2,7 +2,7 @@
   <div class="urls-inner">
     <div class="urls-head position-relative d-flex align-items-center" style="background-color:<%= target.background %>">
       <a href="<%= target.home %>" class="urls-icon" target="_blank">
-        <img src="<%= target.icon %>" alt="<%= target.name %>" />
+        <img class="urls-icon-<%= target.site %>" src="<%= target.icon %>" alt="<%= target.name %>" />
       </a>
       <h3 class="urls-title flex-grow-1 flex-shrink-1 zindex-fixed" style="color:<%= target.color%>">
         <%= target.name %>

@@ -58,14 +58,26 @@
 #   },
 # ])
 
+# Target.create([
+#   {
+#     name: 'Github Trending',
+#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/github.svg',
+#     url: 'https://rsshub.app/github/trending/daily/',
+#     home: 'https://www.github.com/',
+#     site: 'github',
+#     background: '#24292e',
+#     color: 'white',
+#   },
+# ])
+
 Target.create([
   {
-    name: 'Github Trending',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/github.svg',
-    url: 'https://rsshub.app/github/trending/daily/',
-    home: 'https://www.github.com/',
-    site: 'github',
-    background: '#24292e',
-    color: 'white',
+    name: '开源中国',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/oschina.svg',
+    url: 'http://rsspub.herokuapp.com/oschina/news/project',
+    home: 'https://www.oschina.net/',
+    site: 'oschina',
+    background: 'white',
+    color: 'black',
   },
 ])

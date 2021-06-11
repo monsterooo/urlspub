@@ -3,7 +3,7 @@ class Target < ApplicationRecord
   
   def self.category
     category = {}
-    targets = Target.all.order(site: :asc)
+    targets = Target.all.order(site: :desc)
     targets.each do |target|
       category[target.site] = target.articles.lately
     end

@@ -70,13 +70,26 @@
 #   },
 # ])
 
+# Target.create([
+#   {
+#     name: '开源中国',
+#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/oschina.svg',
+#     url: 'http://rsspub.herokuapp.com/oschina/news/project',
+#     home: 'https://www.oschina.net/',
+#     site: 'oschina',
+#     background: 'white',
+#     color: 'black',
+#   },
+# ])
+
+
 Target.create([
   {
-    name: '开源中国',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/oschina.svg',
-    url: 'http://rsspub.herokuapp.com/oschina/news/project',
-    home: 'https://www.oschina.net/',
-    site: 'oschina',
+    name: 'V2EX',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/v2ex.png',
+    url: 'http://rsspub.herokuapp.com/v2ex/tab/tech',
+    home: 'https://v2ex.com/',
+    site: 'v2ex',
     background: 'white',
     color: 'black',
   },

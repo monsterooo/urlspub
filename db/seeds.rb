@@ -36,18 +36,6 @@
 
 # Target.create([
 #   {
-#     name: 'CNBlogs',
-#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/cnblogs.svg',
-#     url: 'http://feed.cnblogs.com/blog/picked/rss',
-#     home: 'https://www.cnblogs.com/',
-#     site: 'cnblogs',
-#     background: '#d14c25',
-#     color: 'white',
-#   },
-# ])
-
-# Target.create([
-#   {
 #     name: 'InfoQ',
 #     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/infoq.png',
 #     url: 'https://xie.infoq.cn/feeds',
@@ -62,7 +50,7 @@
 #   {
 #     name: 'Github Trending',
 #     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/github.svg',
-#     url: 'https://rsshub.app/github/trending/daily/',
+#     url: 'https://rsspub.herokuapp.com/github/trending/daily',
 #     home: 'https://www.github.com/',
 #     site: 'github',
 #     background: '#24292e',

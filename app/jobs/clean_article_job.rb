@@ -6,4 +6,4 @@ class CleanArticleJob < ApplicationJob
   end
 end
 
-# Sidekiq::Cron::Job.create(name: 'clean article - every 30min', cron: '*/30 * * * *', class: 'CleanTargetJob')
+# Sidekiq::Cron::Job.create(name: 'clean article - every 30min', cron: '*/30 * * * *', class: 'CleanArticleJob')

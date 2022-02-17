@@ -11,7 +11,18 @@ class Article < ApplicationRecord
       created
     end
   end
+
   def self.lately
     self.lately_on
   end
+
+  def self.clean
+    size = Article.all.size
+    limitSize = 5000
+     # 如果当前数据小于limitSize则什么也不做
+    return if size < limitSize
+     # 否则删除 size / 2 大小的文章
+    Article.order(created_at: :asc).limit(size / 2).destroy_all
+  end
+
 end

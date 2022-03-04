@@ -71,14 +71,63 @@
 # ])
 
 
+# Target.create([
+#   {
+#     name: 'V2EX',
+#     icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/v2ex.png',
+#     url: 'http://rsspub.herokuapp.com/v2ex/tab/tech',
+#     home: 'https://v2ex.com/',
+#     site: 'v2ex',
+#     background: 'white',
+#     color: 'black',
+#   },
+# ])
+
 Target.create([
   {
-    name: 'V2EX',
-    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/v2ex.png',
-    url: 'http://rsspub.herokuapp.com/v2ex/tab/tech',
-    home: 'https://v2ex.com/',
-    site: 'v2ex',
+    name: 'web.dev',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/webdev.png',
+    url: 'https://web.dev/feed.xml',
+    home: 'https://web.dev/',
+    site: 'webdev',
     background: 'white',
     color: 'black',
+  },
+])
+
+Target.create([
+  {
+    name: 'Hacker News',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/hackernews.png',
+    url: 'https://hnrss.org/frontpage',
+    home: 'https://news.ycombinator.com/',
+    site: 'hackernews',
+    background: '#ff6600',
+    color: 'white',
+  },
+])
+
+Target.create([
+  {
+    name: '/r/javascript',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/javascript.png',
+    url: 'https://www.reddit.com/r/javascript.rss',
+    home: 'https://www.reddit.com/r/javascript',
+    site: 'redditjavascript',
+    background: '#f7df1d',
+    color: 'black',
+  },
+])
+
+
+Target.create([
+  {
+    name: '/r/reactjs',
+    icon: 'https://urlspub.oss-cn-chengdu.aliyuncs.com/javascript.png',
+    url: 'https://www.reddit.com/r/reactjs.rss',
+    home: 'https://www.reddit.com/r/reactjs',
+    site: 'redditreactjs',
+    background: 'white',
+    color: '#61dafb',
   },
 ])
